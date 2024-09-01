@@ -1,0 +1,45 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.weather-container{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 800;
+}
+.form-container{
+    width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.form-container input{
+    width: 320px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.form-container button{
+    width: 80px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.weather-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.weather-card div{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
